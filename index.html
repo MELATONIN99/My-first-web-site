@@ -21,6 +21,8 @@
 
 <body>
     <h1><a href="index.html">인기마우스 3종</a></h1>
+    
+
 <div id="grid">
     <ol>
     <li><a href="1.html">Logitech G PRO X </a></li>
@@ -44,5 +46,38 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+
+    <input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value ==='night'){ 
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value ='day';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+    alist[i].style.color = 'powderblue'
+    i = i + 1;
+} 
+
+    } else {
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value ='night';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+    alist[i].style.color = ''
+    i = i + 1;
+
+    }  
+}
+"> 
+ 
+
+    
 </body>
 </html>
