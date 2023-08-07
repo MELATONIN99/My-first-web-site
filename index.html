@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    
+    <meta charset="utf-8">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YM0J5SZGH"></script>
     <script>
@@ -10,19 +10,21 @@
   gtag('js', new Date());
 
   gtag('config', 'G-2YM0J5SZGH');
-    </script>
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="colors.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
 <title>Welcoome! 마우스 정보</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-
-
-
-</head>
+    
+</head>  
 
 <body>
-    <h1><a href="index.html">인기마우스 3종</a></h1>
-    
-
+  <input type="button" value="night" onclick="
+  nightDayHandler(event);"> 
+   <h1><a href="index.html">인기마우스 3종</a></h1>
 <div id="grid">
     <ol>
     <li><a href="1.html">Logitech G PRO X </a></li>
@@ -48,36 +50,8 @@
     <!--End of Tawk.to Script-->
 
 
-    <input type="button" value="night" onclick="
-    var target = document.querySelector('body');
-    if(this.value ==='night'){ 
-    target.style.backgroundColor = 'black';
-    target.style.color = 'white';
-    this.value ='day';
-
-    var alist = document.querySelectorAll('a');
-    var i = 0;
-    while(i < alist.length){
-    alist[i].style.color = 'powderblue'
-    i = i + 1;
-} 
-
-    } else {
-    target.style.backgroundColor = 'white';
-    target.style.color = 'black';
-    this.value ='night';
-
-    var alist = document.querySelectorAll('a');
-    var i = 0;
-    while(i < alist.length){
-    alist[i].style.color = ''
-    i = i + 1;
-
-    }  
-}
-"> 
- 
+    
 
     
 </body>
-</html>
+</html> 

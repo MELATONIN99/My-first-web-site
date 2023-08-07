@@ -6,8 +6,7 @@ body{
     color:rgb(55, 0, 255);
 }
 .all {
-    color:cornflowerblue;
-    
+    color:cornflowerblue;   
 }
 .saw {
     color:rgb(134, 68, 134);
@@ -17,10 +16,14 @@ h1 {
     border-bottom:2px solid gray;
     margin:0px;
     text-align: center;
-    padding:15px;
-    
-    
-
+    padding:20px;
+}
+input {
+    padding:0px;
+    display:inline;
+    float:left;
+    width:50px;
+    height:20px;
 }
 h2 {
     display:inline
@@ -30,7 +33,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color:rgb(33, 49, 78);
+    color:darkcyan;
 }
 ol {
     border-right: 2px solid gray;
@@ -38,7 +41,6 @@ ol {
     margin:0px;
     padding: 0px;
     padding-left: 32px;
-    
 }
 #grid{
     display: grid;
@@ -49,7 +51,7 @@ ol {
     padding:25px;
     padding-top:25px;
 }
-@media(max-width:800px){
+@media(max-width:550px){
     #grid{
     display: block;
 }
@@ -60,3 +62,13 @@ ol {
         border-bottom:none;
     }
 }   
+.night {
+    background-color: black;
+    color: white;   
+}
+.night #active {
+    color:pink;
+}
+.night a:visited {
+    color:skyblue;
+}
