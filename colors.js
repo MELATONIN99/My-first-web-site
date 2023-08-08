@@ -23,13 +23,27 @@ var Links = {
                 bodyElement.classList.toggle('night');
 
                 const button = event.target;
-                      if(button.value ==='night'){
-                      button.value ='day';
-                      } 
-                      else {
-                button.value ='night';
-                }
-              }
+              //         if(button.value ==='밤낮'){
+              //           value = "day"
+                      
+              //         } 
+              //         else {
+              //         const bodyElement = document.querySelector('body');
+              //         bodyElement.classList('night')  
+              //          value = "night"
+                
+                
+              //   }
+              // }
+              if(button.value !=='밤낮'){
+              const bodyElement = document.querySelector('body');
+              bodyElement.classList('night')  
+               value = "night"
+        
+        
+        }
+      }
+
     
     // function nightDayHandler(){
     //     var target = document.querySelector('body');
