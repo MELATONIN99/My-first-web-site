@@ -6,8 +6,7 @@ body{
     color:rgb(55, 0, 255);
 }
 .all {
-    color:cornflowerblue;
-    
+    color:cornflowerblue;   
 }
 .saw {
     color:rgb(134, 68, 134);
@@ -18,9 +17,6 @@ h1 {
     margin:0px;
     text-align: center;
     padding:20px;
-    
-    
-
 }
 input {
     padding:0px;
@@ -32,7 +28,6 @@ input {
 h2 {
     display:inline
 }
-
 a:link {
     color:cornflowerblue;   
     text-decoration: none;
@@ -46,7 +41,6 @@ ol {
     margin:0px;
     padding: 0px;
     padding-left: 32px;
-    
 }
 #grid{
     display: grid;
@@ -68,11 +62,9 @@ ol {
         border-bottom:none;
     }
 }   
-
 .night {
     background-color: black;
-    color: white;
-    
+    color: white;   
 }
 .night #active {
     color:pink;
