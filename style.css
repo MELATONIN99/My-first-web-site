@@ -16,13 +16,17 @@ body{
     color:#212121
 }
 h1 {
-    font-size:50px;
+    font-size:60px;
     border-bottom:2px solid gray;
     margin:0px;
     text-align: center;
+    line-height: middle;
     padding:5px;
     background-color:#FAFAFA;
     color:#1EC800;
+}
+h1 a {
+    display: block;
 }
 input {
     padding:0px;
@@ -109,7 +113,7 @@ input.daybutton {
     background-color: #282828;
 }
 .night h1 {
-    font-size:50px;
+    font-size:60px;
     border-bottom:2px solid gray;
     margin:0px;
     text-align: center;
